@@ -19,6 +19,7 @@ mes.sh脚本是对于termux开发的一个bash脚本。🙂
   接着会显示可以安装的系统，在 bash mes.sh xxx(输入系统名),即可进行安装，完成后退出termux再次进入termux，输入你安装的系统名
   eg(以alpine为例子):  
     ~ $  alpine
+    
 注意事项😥:
 ---
   该脚本会向.bashrc写入命令，请确保.bashrc是否有重要的需要备份，因初版还未对此进行优化，会导致重复写入问题。
