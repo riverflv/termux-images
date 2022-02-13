@@ -192,7 +192,7 @@ else
                 echo "----riverSet:添加[.bashrc]"
                 `touch .bashrc`
             fi
-             echo "unset LD_PRELOAD;alias $1='proot --link2symlink -0 -r $1 -b /dev -b /proc -b alpine:/root:/dev/shm -w /root /usr/bin/env -i HOME=/root PATH=/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/sbin TERM=$TERM LANG=C.UTF-8 $h --login'">>.bashrc
+             echo "unset LD_PRELOAD;alias $1='proot --link2symlink -0 -r $1 -b /dev -b /proc -b $1:/root:/dev/shm -w /root /usr/bin/env -i HOME=/root PATH=/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/sbin TERM=$TERM LANG=C.UTF-8 $h --login'">>.bashrc
              echo "----[$1]系统部署成功，请重新进入termunx，输入: $1  已进入系统!"
         fi
     fi
