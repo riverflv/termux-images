@@ -1,4 +1,4 @@
-mes.sh脚本是对于termux开发的一个bash脚本。🙂
+mes.sh脚本是方便在termux安装linux系统的一个bash脚本。🙂
 ===
 优点🥳：
 ---
