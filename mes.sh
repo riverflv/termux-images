@@ -1,6 +1,6 @@
 #!/bin/bash
 # author :river
-# version:mes V.1.0.0
+# version:mes V.1.0.1
 v_river=`uname -m`
 sl_river=("alpine" "kali" "centos" "ubuntu" "arch" "ferado" "opensuse")
 sf_river=("arm64" "aarch64" "armhf" )
@@ -55,12 +55,10 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "alpine arm64 loading."
                             `curl -O $alpineArm64`
                         fi
                         if [ $v_river = "armhf" ];
                         then 
-                            echo "alpine armhf loading."
                             `curl -O $alpineArmhf`
                         fi
                     else  
@@ -74,12 +72,10 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "kali arm64 loading."
                             `curl -O $kaliArm64`
                         fi
                         if [ $v_river = "armhf" ];
                         then 
-                            echo "kali armhf loading."
                             `curl -O $kaliArmhf`
                         fi
                     else  
@@ -93,14 +89,8 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "alpine arm64 loading."
                             `curl -O $centosArm64`
                         fi
-                        if [ $v_river = "armhf" ];
-                        then 
-                            echo "alpine armhf loading."
-                        fi
-                    else  
                         echo "----riverError:该系统未适配你[$v_river]架构的系统."
                     fi
                 fi
@@ -111,12 +101,10 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "alpine arm64 loading."
                             `curl -O $ubuntuArm64`
                         fi
                         if [ $v_river = "armhf" ];
                         then 
-                            echo "alpine armhf loading."
                             `curl -O $ubuntuArmhf`
                         fi
                     else  
@@ -130,12 +118,10 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "alpine arm64 loading."
-                            `curl -O $archlinuxArmhf`
+                            `curl -O $archlinuxArm64`
                         fi
                         if [ $v_river = "armhf" ];
                         then 
-                            echo "alpine armhf loading."
                             `curl -O $archlinuxArmhf`
                         fi
                     else  
@@ -149,12 +135,10 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "alpine arm64 loading."
                             `curl -O $feradoArm64`
                         fi
                         if [ $v_river = "armhf" ];
                         then 
-                            echo "alpine armhf loading."
                             `curl -O $feradoArmhf`
                         fi
                     else  
@@ -168,8 +152,7 @@ else
                     then
                         if [ $v_river = "arm64"  -o $v_river = "aarch64" ];
                         then
-                            echo "alpine arm64 loading."
-                            `curl -O $opensuseArmhf`
+                            `curl -O $opensuseArm64`
                         fi
                     else  
                         echo "----riverError:该系统未适配你[$v_river]架构的系统."
