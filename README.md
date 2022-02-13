@@ -11,7 +11,7 @@ mes.sh脚本是方便在termux安装linux系统的一个bash脚本。🙂
   4.支持Ubuntu,Centos,kali,opensuse,Alpine,archlinux,ferado
   --
   
-###该项目是耗时接近1天完成，因个人对linux的shell脚本代码还没完成优化，及一些功能尚未实现，不出意外的话会在几天后更新。
+###该项目是耗时接近1天完成，因个人对linux的shell脚本代码还没完成优化，及一些功能尚未实现，有时间再优化。
 
 使用方法🤪：
 ---
