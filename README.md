@@ -2,7 +2,7 @@ mes.sh脚本是方便在termux安装linux系统的一个bash脚本。🙂
 ===
 优点🥳：
 ---
-  1.只需要安装curl（termux基本已经自带——curl）。
+  1.只需要安装curl,proot（termux基本已经自带——curl）。
   ---
   2.快速，安装速度取决于你的网速。
   ---
