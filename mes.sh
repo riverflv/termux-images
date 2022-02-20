@@ -6,21 +6,21 @@ sl_river=("alpine" "kali" "centos" "ubuntu" "arch" "ferado" "opensuse")
 sf_river=("arm64" "aarch64" "armhf" )
 sn_river=($alpineArm64,$alpineArmhf,$kaliArm64,$kaliArmhf,$centosArm64,$ubuntuArm64,$ubuntuArmhf,$archlinuxArm64,$archlinuxArmhf,$fedoraArm64,$fedoraArmhf,$opensuseArm64)
 
-alpineArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/alpine/3.15/arm64/default/20220211_13%3A01/rootfs.tar.xz"
-alpineArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/alpine/3.15/armhf/default/20220211_13%3A00/rootfs.tar.xz"
-#alpineArmv7="https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.15/releases/armv7/alpine-minirootfs-3.15.0-armv7.tar.gz"
-kaliArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/kali/current/arm64/default/20220211_18%3A47/rootfs.tar.xz"
-kaliArhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/kali/current/armhf/default/20220211_18%3A47/rootfs.tar.xz"
+alpineArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/alpine/3.15/arm64/default/20220211_13%3A01/rootfs.tar.xz" #Address not updated
+alpineArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/alpine/3.15/armhf/default/20220211_13%3A00/rootfs.tar.xz" #Address not updated
+#alpineArmv7="https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.15/releases/armv7/alpine-minirootfs-3.15.0-armv7.tar.gz" #Address not updated
+kaliArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/kali/current/arm64/default/20220219_19%3A03/rootfs.tar.xz"
+kaliArhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/kali/current/armhf/default/20220219_19%3A03/rootfs.tar.xz"
 
-centosArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/centos/9-Stream/arm64/default/20220211_10%3A39/rootfs.tar.xz"
+centosArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/centos/9-Stream/arm64/default/20220211_10%3A39/rootfs.tar.xz" #Address not updated
 
-ubuntuArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/ubuntu/focal/arm64/default/20220211_08%3A22/rootfs.tar.xz"
-ubuntuArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/ubuntu/focal/armhf/default/20220211_08%3A52/rootfs.tar.xz"
-archlinuxArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/archlinux/current/arm64/default/20220212_04%3A18/rootfs.tar.xz"
-archlinuxArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/archlinux/current/armhf/default/20220212_04%3A18/rootfs.tar.xz"
-feradoArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/fedora/35/arm64/default/20220211_20%3A33/rootfs.tar.xz"
-feradoArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/fedora/35/armhf/default/20220211_20%3A33/rootfs.tar.xz"
-opensuseArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/opensuse/15.3/arm64/default/20220212_04%3A21/rootfs.tar.xz"
+ubuntuArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/ubuntu/focal/arm64/default/20220211_08%3A22/rootfs.tar.xz" #Address not updated
+ubuntuArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/ubuntu/focal/armhf/default/20220211_08%3A52/rootfs.tar.xz" #Address not updated
+archlinuxArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/archlinux/current/arm64/default/20220212_04%3A18/rootfs.tar.xz" #Address not updated
+archlinuxArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/archlinux/current/armhf/default/20220212_04%3A18/rootfs.tar.xz" #Address not updated
+feradoArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/fedora/35/arm64/default/20220211_20%3A33/rootfs.tar.xz" #Address not updated
+feradoArmhf="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/fedora/35/armhf/default/20220211_20%3A33/rootfs.tar.xz" #Address not updated
+opensuseArm64="https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/opensuse/15.3/arm64/default/20220212_04%3A21/rootfs.tar.xz" #Address not updated
 if [ -z $1 ];
 then 
     n=0
